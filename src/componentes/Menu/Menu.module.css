@@ -12,3 +12,24 @@
         height: 72px;
     }
 }
+
+.logo {
+    height: 148px;
+    width: auto;
+    object-fit: contain;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: -13px;
+}
+
+
+@media (max-width: 774px) {
+    .cabecalho {
+        height: 72px;
+        flex-direction: row;
+        gap: 1rem;
+    }
+    .logo {
+        height: 50px;
+    }
+}

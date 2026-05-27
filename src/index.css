@@ -1,0 +1,36 @@
+/* body{
+    background-image: url(assets/imagem-fundo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+} */
+
+body{
+    background-color: var(--creme);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --cafe: #442d1c;
+  --marrom-medio: #743014;
+  --creme: #e8d1a7;
+  --cor-fonte-principal:#938142e4;
+  --caramelo:#84592bec;
+  --fonte-principal: "Raleway", sans-serif;
+  --fonte-secundaria: "Playfair Display", serif;
+
+  font-family: var(--fonte-principal);
+}
+
+#root{
+  display: grid;
+  grid-template-rows:auto 1fr auto ;
+  grid-template-columns: minmax(0, 1fr);
+  min-height: 100vh;
+}

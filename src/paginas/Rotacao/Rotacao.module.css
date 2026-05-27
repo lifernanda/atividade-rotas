@@ -1,0 +1,14 @@
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.titulorotacao{
+    font-family: var(--fonte-secundaria);
+    text-align: center;
+    margin-top: 15px;
+    color: var(--marrom-medio);
+}

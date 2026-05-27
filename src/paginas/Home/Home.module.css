@@ -1,0 +1,26 @@
+.tituloHome {
+  text-align: center;
+  font-size: 3.5rem;
+  margin-top: 25px;
+  color: var(--marrom-medio);
+  font-family: var(--fonte-secundaria);
+  padding: 15px;
+}
+
+.paragrafoHome {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding: 0 170px;
+  color: var(--creme);
+  word-spacing: 5px;
+  text-indent: 30px;
+}
+
+.fundoparagrafo{
+    background-color: var(--cafe);
+    font-family: var(--fonte-secundaria);
+    color: var(--creme);
+    padding: 15px;
+}
